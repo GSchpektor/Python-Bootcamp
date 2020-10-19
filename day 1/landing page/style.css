@@ -1,0 +1,38 @@
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 105px;
+}
+
+/*button{
+	background-color: lightblue;
+	display: flex;
+	margin-left: auto;
+
+}
+*/
+form{
+	background-image: url("oceanbackground.jpg");
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.email{
+	display: flex;
+	justify-content: center;
+}
+
+.submit{
+	color: blue;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+

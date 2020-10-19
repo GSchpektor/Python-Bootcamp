@@ -1,0 +1,33 @@
+nav{
+	display: flex;
+	justify-content: flex-end;
+	
+
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img{
+	width: 500px;
+	height: 500px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
+
+h1{
+	color: gold;
+	font-family: 'Krona One', sans-serif;
+}
+
+p{
+	font-family: 'Krona One', sans-serif;
+	color: #801515
+}
