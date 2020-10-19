@@ -1,9 +1,29 @@
+
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: lavender;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: lightblue;
+  }
+ }
+
 nav{
 	display: flex;
 	justify-content: flex-end;
 	
 
 }
+
+*{
+	box-sizing: border-box;
+}
+
+
 
 .container{
 	display: flex;
