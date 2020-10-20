@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style type="text/css">
+    	div {
+    height: 100px;
+}
+
+#div1 {
+    background-color: red;
+}
+
+#div2 {
+    background-color: blue;
+}
+
+#div3 {
+    background-color: green;
+}
+
+#div4 {
+    background-color: purple;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+	width: 100%;
+ }
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+	width: 80%;
+ }
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+	width: 50%;
+ }
+
+@media all and (max-width: 480px) { 
+	width: 20%;
+}
+
+    </style>
+</head>
+<body>
+    <h1>Media Queries</h1>
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+    <div id="div4"></div>
+</body>
+</html>
