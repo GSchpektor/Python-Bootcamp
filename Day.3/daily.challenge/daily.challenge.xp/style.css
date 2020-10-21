@@ -1,12 +1,23 @@
-.container{
-	color: blue;
-	text-align: center;
-}
 
 .container{
 	display: grid;
-	grid-template-columns: 1fr 2fr;
-	grid-template-rows: 2fr 1fr;
-	grid-gap: 20px 10px;
+	grid-gap: 20px 20px;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+/*	grid-template-areas: 
+		"a f b c"
+		"a b f c"
+		"a f b c"
+		"a d f c";*/
+}
+
+div{
+	background-color: yellow;
+	border: solid black 1px;
+	color: blue;
+	text-align: center;
+	/*display: inline-block;*/
+	height: 100px;
+	width: 100px;
 
 }
