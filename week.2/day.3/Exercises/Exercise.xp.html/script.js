@@ -1,24 +1,24 @@
 //Exercise 1
 
-// let colors = ["yellow", "red", "blue", "green"]
+let colors = ["yellow", "red", "blue", "green"]
 
-// for (let i = 0; i < colors.length; i++) {
-// 	console.log("My #1 choice is " + colors[i])
-// }
+for (let i = 0; i < colors.length; i++) {
+	console.log("My #1 choice is " + colors[i])
+}
 
-// let suffix = ["st", "nd", "rd", "th"]
+let suffix = ["st", "nd", "rd", "th"]
 
-// for (let i = 0; i < colors.length; i++) {
-// 	if (i == 0){
-// 	console.log("My " + (i+1) + suffix[0] + " choice is " + colors[i])
-// } else if (i == 1) {
-// 	console.log("My " + (i+1) + suffix[1] + " choice is " + colors[i])
-// } else if (i == 2){
-// 	console.log("My " + (i+1) + suffix[2] + " choice is " + colors[i])
-// } else {
-// 	console.log("My " + (i+1) + suffix[3] + " choice is " + colors[i])
-// }
-// }
+for (let i = 0; i < colors.length; i++) {
+	if (i == 0){
+	console.log("My " + (i+1) + suffix[0] + " choice is " + colors[i])
+} else if (i == 1) {
+	console.log("My " + (i+1) + suffix[1] + " choice is " + colors[i])
+} else if (i == 2){
+	console.log("My " + (i+1) + suffix[2] + " choice is " + colors[i])
+} else {
+	console.log("My " + (i+1) + suffix[3] + " choice is " + colors[i])
+}
+}
 
 
 
@@ -91,12 +91,12 @@
 
 // Exercise 6
 
-let age = [20,5,12,43,98,55];
-var sum = 0;
-for(i=0; i<age.length; i++){
-   sum += age[i];
-}
-console.log(sum)
+// let age = [20,5,12,43,98,55];
+// var sum = 0;
+// for(i=0; i<age.length; i++){
+//    sum += age[i];
+// }
+// console.log(sum)
 
 
  

@@ -1,0 +1,2 @@
+- create function for numbers
+- create function for +,-,/ etc.
