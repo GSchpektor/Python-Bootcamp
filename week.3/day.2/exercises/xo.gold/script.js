@@ -34,9 +34,14 @@
 
 // Exercise 3
 	
-let input = document.createElement("input")
-input.setAttribute("type", "text")
-document.body.appendChild(input)
+let shoppingitem = document.createElement("input")
+shoppingitem.setAttribute("type", "text")
+shoppingitem.setAttribute("placeholder", "item")
+document.body.appendChild(shoppingitem)
+let amount = document.createElement("input")
+amount.setAttribute("type", "text")
+amount.setAttribute("placeholder", "amount")
+document.body.appendChild(amount)
 let btn = document.createElement("input")
 btn.setAttribute("type", "button")
 btn.setAttribute("value", "add")
@@ -54,7 +59,10 @@ document.body.appendChild(list)
 
 function shopping_list() {
 	let shopping = document.getElementById("root")
-	shopping = input.value
+	shoppingitem = shoppingitem.value
+	amount = amount.value
+	shopping.innerHTML = shoppingitem + " " + amount
+	console.log(shopping)
 }
 
 btn.addEventListener("click", shopping_list)
