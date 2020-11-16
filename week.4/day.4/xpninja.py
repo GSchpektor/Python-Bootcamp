@@ -17,19 +17,21 @@
 
 # Exercie 3
 
-def insertion_sort(alist):
-   for index in range(1,len(alist)):
+# def insertion_sort(alist):
+#    for index in range(1,len(alist)):
 
-     currentvalue = alist[index] ## current value is the first item in list +1
-     position = index  ## number in range, 1 +1 (one ahead of currentvalue)
+#      currentvalue = alist[index] ## current value is the first item in list +1
+#      position = index  ## number in range, 1 +1 (one ahead of currentvalue)
 
-     while position>0 and alist[position-1]>currentvalue: # compares the value with first item in list to see if bigger
-         alist[position]=alist[position-1] #move item down a position in the list
-         position = position-1 #keep repositioning until it is at the front
+#      while position>0 and alist[position-1]>currentvalue: # compares the value with first item in list to see if bigger
+#          alist[position]=alist[position-1] #move item down a position in the list
+#          position = position-1 #keep repositioning until it is at the front
 
-     alist[position]=currentvalue 
+#      alist[position]=currentvalue 
 
-alist = [54,26,93,17,77,31,44,55,20]
-insertion_sort(alist)
-print(alist)
+# alist = [54,26,93,17,77,31,44,55,20]
+# insertion_sort(alist)
+# print(alist)
+
+# Exercise 4
 
